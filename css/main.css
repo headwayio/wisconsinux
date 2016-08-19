@@ -15,9 +15,15 @@ h1 {
 }
 h2 {
   font-weight: light;
-  font-size: 20px;
+  font-size: 26px;
   color: #142851;
   letter-spacing: 0px;
+}
+.white {
+  color: #ffffff;
+}
+.deep-blue {
+  color: #142851;
 }
 p {
   font-weight: lighter;
@@ -25,6 +31,9 @@ p {
   color: #FFFFFF;
   letter-spacing: 0px;
   line-height: 30px;
+}
+p.small {
+  font-size: 16px;
 }
 .top-m-1 {margin-top: 1em;}
 .top-m-2 {margin-top: 2em;}
@@ -37,3 +46,6 @@ p {
   border-radius: 2px;
   padding: 3em;
 }
+  .box p {
+    color: #142851;
+  }
